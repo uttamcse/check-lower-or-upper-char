@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<string.h>
+#include<ctype.h>
+
+int main ()
+{
+
+	char alpha;
+	
+	printf("please enter the alpha ")	;
+	scanf("%c",&alpha);
+	
+	if(isupper(alpha))
+	{
+		printf("%c is in upper case ",alpha);
+	}
+	else if(islower(alpha))
+	{
+		printf("%c is in lower case",alpha);
+	}
+	else
+	{
+		printf("you have enter worng charecter",alpha);
+	
+}
+	return 0;
+	
+}
